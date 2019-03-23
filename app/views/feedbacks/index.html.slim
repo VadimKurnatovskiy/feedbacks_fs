@@ -1,0 +1,6 @@
+.container
+  = render "layouts/search_form"
+  h1 All feedbacks
+  .row
+    = render feedbacks
+  = paginate feedbacks, :outer_window => 5
