@@ -31,7 +31,7 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { host: "localhost:5000" }
 
   # Preview email in the browser instead of sending it.
-  config.action_mailer.delivery_method = :letter_opener
+  config.action_mailer.delivery_method = :smtp
 
   config.action_mailer.perform_caching = false
   config.action_mailer.perform_deliveries = true
