@@ -55,6 +55,7 @@ end
 
 group :test do
   gem "capybara"
+  gem "capybara-email"
   gem "codeclimate-test-reporter", require: false
   gem "database_cleaner"
   gem "email_spec"

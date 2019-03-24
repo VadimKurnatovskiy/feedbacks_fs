@@ -82,6 +82,9 @@ GEM
       rack (>= 1.0.0)
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
+    capybara-email (3.0.1)
+      capybara (>= 2.4, < 4.0)
+      mail
     choice (0.2.0)
     cliver (0.3.2)
     codeclimate-test-reporter (0.6.0)
@@ -450,6 +453,7 @@ DEPENDENCIES
   bundler-audit
   byebug
   capybara
+  capybara-email
   codeclimate-test-reporter
   coffee-rails
   coffeelint
