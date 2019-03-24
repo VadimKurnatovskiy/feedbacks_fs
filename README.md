@@ -1,11 +1,10 @@
-# README
+### Дополнительное тестовое задание
 
-Link to Heroku app:
+Link to Heroku app: https://feedbacks-fs.herokuapp.com/
 ##### Admin credentials
 Login: admin@example.com
 Password: 123456
 ___
-# Дополнительное тестовое задание
 
 ## Условие задачи
 
